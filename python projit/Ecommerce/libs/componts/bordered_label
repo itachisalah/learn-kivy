@@ -1,0 +1,10 @@
+<BorderedLabel@Label>:
+    color  :1,1,1,1
+    border_width:0.1
+    border_color:(0,0,0,1)
+    canvas.before:
+        Color:
+            rgba: self.border_color
+        Line:
+            width:self.border_width
+            rectangle:(self.pos[1],self.size[0],self.size[1])

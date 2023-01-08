@@ -1,0 +1,42 @@
+{
+  "salah": {
+    "avatar":"https://images.unsplash.com/photo-1659490775123-9aeaec2f35d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+    "post":"https://images.unsplash.com/photo-1659425757127-ccbf96c59163?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+    "likes":"100",
+    "comments":"21",
+    "caption":"bo.....",
+    "updated_ago": "5 h"
+  },
+  "Ahmed": {
+    "avatar":"https://images.unsplash.com/photo-1659425191734-773850835dad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+    "post":"https://images.unsplash.com/photo-1656444698971-5eed37d977c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+    "likes":"22",
+    "comments":"100",
+    "caption":"WOW....?",
+    "updated_ago": "3 Day"
+  },
+  "khalid": {
+    "avatar":"https://images.unsplash.com/photo-1659464797962-62a9b8324abc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "post":"https://images.unsplash.com/photo-1659429470997-92891f4adafa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "likes":"55",
+    "comments":"10",
+    "caption":"i likes ",
+    "updated_ago": "2 m"
+  },
+  "sara": {
+    "avatar":"https://images.unsplash.com/photo-1659504959196-04f5d408fd3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "post":"https://images.unsplash.com/photo-1659474687871-7af4153ac4ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "likes":"200",
+    "comments":"1000",
+    "caption":"maroc",
+    "updated_ago": "2 day"
+  },
+  "khadija": {
+    "avatar":"https://images.unsplash.com/photo-1659522364260-57fe0adfe33d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "post":"https://images.unsplash.com/photo-1659519529276-a6a42aaa0b7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "likes":"25",
+    "comments":"60",
+    "caption":"............?",
+    "updated_ago": "3 h"
+  }
+}

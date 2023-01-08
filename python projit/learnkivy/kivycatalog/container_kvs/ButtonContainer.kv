@@ -1,0 +1,27 @@
+GridLayout:
+    cols:2
+    Button:
+        text:'BUTTON 1'
+    Button:
+        text:'Button2'
+        font_size: 24
+    Button:
+        text:'Button3'
+        background_color :0.7,0.7,1,1
+    Button:
+        text:'Button4'
+        on_press: slf.text ='pressed'
+        on_release: self.text= 'Button4'
+    ToggleButton:
+        text: 'A toggle button'
+    ToggleButton:
+        text: 'A toggle button in a group'
+        group:'money'
+    ToggleButton:
+        text: 'A toggle button in state'
+        state: 'down'
+    ToggleButton:
+        text: 'A toggle button group'
+        group: 'money'
+
+

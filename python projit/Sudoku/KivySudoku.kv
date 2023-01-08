@@ -1,0 +1,110 @@
+
+Sudoku:
+<Sudoku>:
+    canvas.before:
+        Color:
+            rgba: [0.1,0.1,0.1,1]
+        Rectangle:
+            pos:self.pos
+            size:self.size
+
+<BigGrid>:
+    cols: 3
+    size_hint: (None, 0.8)
+    width: self.height
+    spacing: 4
+    padding: 8
+    canvas.before:
+        Color:
+            rgba: [0, 0.25, 0.3, 1]
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<SmallGrid>:
+    cols: 3
+    spacing: 1
+    canvas.before:
+        Color:
+            rgba: [0, 0.25, 0, 1]
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+
+<MenuWidget>:
+    canvas.before:
+        Color:
+            rgba:0.1, 0.1, 0.1
+        Rectangle:
+            size:self.size
+    Label:
+        text:"difficuty"
+        color: 1,1,1,1
+        font_size:self.height *0.8
+        font_name : "label_font.ttf"
+        pos_hint:{"center_x":0.5,"center_y":0.8}
+        size_hint: 0.4, 0.15
+    Button:
+        text:"easy"
+        color:1,0,1,1
+        backgound_color:1,1,1,1
+        font_size: self.height * 0.8
+        font_name:"KaushanScript-Regular.ttf"
+        pos_hint:{"center_x":0.5,"center_y":0.6}
+        size_hint: 0.4, 0.15
+        background_normal:""
+        on_press: root.parent.easy_button()
+    Button:
+        text:"medium"
+        color:1,0,1,1
+        backgound_color:1,1,1,1
+        font_size: self.height * 0.8
+        font_name:"KaushanScript-Regular.ttf"
+        pos_hint:{"center_x":0.5,"center_y":0.4}
+        size_hint: 0.4, 0.15
+        background_normal:""
+        on_press: root.parent.medium_button()
+    Button:
+        text:"hard"
+        color:1,0,1,1
+        backgound_color:1,1,1,1
+        font_size: self.height * 0.8
+        font_name:"KaushanScript-Regular.ttf"
+        pos_hint:{"center_x":0.5,"center_y":0.2}
+        size_hint: 0.4, 0.15
+        background_normal:""
+        on_press: root.parent.hard_button()
+
+<MenuWidget2>:
+    canvas.before:
+        Color:
+            rgba:0.1,0.1,0.1
+        Rectangle:
+            size:self.size
+    Label:
+        text:"congratulations"
+        color:0, 0.35, 0.4,
+        font_name:"KaushanScript-Regular.ttf"
+        font_size: self.height *0.6
+        pos_hint:{"center_x":0.5,"center_y":0.7}
+        size_hint: 0.4,0.2
+    Button:
+        text:"new game"
+        color:0,0.25,0.3,1
+        backgound_color:1,1,1,1
+        font_size: self.height * 0.6
+        font_name:"KaushanScript-Regular.ttf"
+        pos_hint:{"center_x":0.5,"center_y":0.2}
+        size_hint: 0.6,0.2
+        background_normal:""
+        on_press: root.parent.new_game()
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,354 @@
+
+#:import get_color_from_hex kivy.utils.get_color_from_hex
+<Application>:
+    ScrollView:
+        bar_width:0
+        MDGridLayout:
+            cols:1
+            adaptive_height: True
+            rows_default_height: 170
+            md_bg_color:1,1,1,1
+            MDBoxLayout:
+                orientation: 'vertical'
+                md_bg_color: app.theme_cls.primary_color
+                size_hint_y: None
+                height: 120
+                MDTopAppBar:
+                    md_bg_color:app.theme_cls.primary_color
+                    specific_text_color:1,1,1,1
+                    left_actiom_items:[['account-outline', lambda x:print('Clicked')]]
+                    right_action_items:[['eye',lambda x: print('Clicked')],['help-circle-outline', lambda x:print('Clicked')]]
+                MDLabel:
+                    text:"hello salah"
+                    color: 1,1,1,1
+                    font_style: 'Subtitle2'
+                    font_size:16
+                    padding_x:18
+            MDBoxLayout:
+                size_hint_y: None
+                height: 100
+                orientation:'vertical'
+                padding: 20
+                MDBoxLayout:
+                    MDLabel:
+                        text:'Account'
+                        font_style: 'Subtitle2'
+                        font_size:17
+                    MDIcon:
+                        icon: 'arrow-right'
+                        size_hint_x: None
+                        size: self.texture_size
+                MDLabel:
+                    text: '$500,00'
+                    font_style:'H6'
+
+            MDBoxLayout:
+                size_hint_y: None
+                height: 85
+                ScrollView:
+                    bar_width: 0
+                    do_scroll_y:False
+                    MDBoxLayout:
+                        adaptive_width: True
+                        spacing: 5
+                        Separator:
+                            size_hint_x: None
+                            width: 7
+                        ShortCuts:
+                            text:'Pix Area'
+                            icon:'autorenew'
+                        ShortCuts:
+                            text:'Pay'
+                            icon:'barcode'
+                        ShortCuts:
+                            text:'transfer'
+                            icon:'cash-refund'
+                        ShortCuts:
+                            text:'Deposit'
+                            icon:'cash-plus'
+                        ShortCuts:
+                            text:'Borrow'
+                            icon:'hand-heart-outline'
+                        ShortCuts:
+                            text:'Cell phone recharge'
+                            icon:'cellphone'
+                        ShortCuts:
+                            text:'Demond'
+                            icon:'domain'
+                        ShortCuts:
+                            text:'Donation'
+                            icon:'heart-outline'
+                        ShortCuts:
+                            text:'Transfer\nInternational'
+                            icon:'web'
+                        ShortCuts:
+                            text:'Find'
+                            icon:'help-circle-outline'
+
+
+
+            Separator:
+            MDBoxLayout:
+                size_hint_y: None
+                height: 43
+                padding: 22, 0 , 22 , 0
+                MDFillRoundFlatIconButton:
+                    md_bg_color: get_color_from_hex('#eaeaea')
+                    theme_text_color:"Custom"
+                    text_color:0,0,0,1
+                    line_color:1,1,1,1
+                    size_hint: 1,1
+                    icon: 'credit-card-outline'
+                    icon_color: 0,0,0,1
+                    text:'My Cards'
+
+            Separator:
+
+            MDBoxLayout:
+                size_hint_y :None
+                height:75
+                ScrollView:
+                    bar_width:0
+                    do_scroll_y:False
+                    MDBoxLayout:
+                        adaptive_width:True
+                        spacing: 15
+                        Separator:
+                            size_hint_x :None
+                            width: 8
+                        CustomButton:
+                            text: 'You have [color= #7b1fa2] $25.000,00[/color] available for count'
+                        CustomButton:
+                            text: ' [color= #7b1fa2] salaheddine split and regret[/color]\n Pay your in-app purchases'
+                        CustomButton:
+                            text: 'save your Friends [color= #7b1fa2] $25.000,00[/color] available for count'
+
+            Separator:
+                height: 23
+
+            MDCard:
+                orientation:'vertical'
+                elevation :0.5
+                md_bg_color: 1,1,1,1
+                size_hint_y :None
+                height:170
+                spacing : 1
+                padding :20
+                MDIcon:
+                    icon:'credit-card-outline'
+                MDBoxLayout:
+                    MDLabel:
+                        text:'Credit Card'
+                        font_style:'Subtitle2'
+                        font_size: 16
+                    MDIcon
+                        icon:'arrow-right'
+                        size_hint_x:None
+                        size: self.texture_size
+                        theme_text_color:"Custom"
+                        text_color: get_color_from_hex("#525252")
+                MDLabel:
+                    text:'current Invoice'
+                    font_style:'Subtitle2'
+                    font_size: 17
+                    theme_text_color:"Custom"
+                    text_color: get_color_from_hex("#525252")
+
+                MDLabel:
+                    text:'$25.000,00'
+                    font_style:'Subtitle2'
+                    font_size: 18
+
+                MDLabel:
+                    text:'available limit of $1.000,00'
+                    font_style:'Subtitle2'
+                    font_size: 11
+                    theme_text_color:'Custom'
+                    text_color:get_color_from_hex('#525252')
+
+            MDCard:
+                orientation:'vertical'
+                elevation :0.5
+                md_bg_color: 1,1,1,1
+                size_hint_y :None
+                height:130
+                spacing : 5
+                padding :20
+                MDIcon:
+                    icon:'hand-heart-outline'
+                MDBoxLayout:
+                    MDLabel:
+                        text:'salah'
+                        font_style:'Subtitle2'
+                        font_size:16
+                    MDIcon:
+                        icon: 'arrow-right'
+                        size_hint_x: None
+                        size: self.texture_size
+                        theme_text_color:"Custom"
+                        text_color: get_color_from_hex("#525252")
+                MDLabel:
+                    text:'available value up to'
+                    font_style:'Subtitle2'
+                    font_size: 11
+                    theme_text_color:'Custom'
+                    text_color:get_color_from_hex('#525252')
+                MDLabel:
+                    text:' $11.000,00'
+                    font_style:'Subtitle2'
+                    font_size: 12
+                    theme_text_color:'Custom'
+                    text_color:get_color_from_hex('#525252')
+            MDCard:
+                orientation:'vertical'
+                elevation :0.5
+                md_bg_color: 1,1,1,1
+                size_hint_y :None
+                height:130
+                spacing : 5
+                padding :20
+                MDIcon:
+                    icon:'heart-outline'
+
+                MDBoxLayout:
+                    MDLabel:
+                        text:'itachi'
+                        font_style:'Subtitle2'
+                        font_size:16
+                    MDIcon:
+                        icon: 'arrow-right'
+                        size_hint_x: None
+                        size: self.texture_size
+                        theme_text_color:"Custom"
+                        text_color: get_color_from_hex("#525252")
+                MDLabel:
+                    text:'Meat itachi python '
+                    font_style:'Subtitle2'
+                    font_size: 11
+                    theme_text_color:'Custom'
+                    text_color:get_color_from_hex('#525252')
+
+            Separator:
+                height: 2
+            MDCard:
+                orientation:'vertical'
+                elevation :0
+                md_bg_color: 1,1,1,1
+                size_hint_y :None
+                height:230
+                padding :20, 0 ,0, 20
+                MDLabel:
+                    text: 'Find Out More'
+                    font_style:'Subtitle2'
+                    font_size: 15
+                    size_hint_y: None
+                    size:self.texture_size[0], self.texture_size[1] +20
+
+                Separator:
+
+                MDBoxLayout:
+                    size_hint_y: None
+                    height: 150
+                    ScrollView:
+                        bar_width: 0
+                        do_scroll_y: False
+                        MDBoxLayout:
+                            adaptive_width: True
+                            sapcing: 10
+
+                            CustomCard:
+                                text: 'Massanger'
+                                description:'Show your friends how easy it is tolive without '
+                                btntext: 'indictae friends'
+                            CustomCard:
+                                text: 'Facebook'
+                                description:'Show your friends Example for registering a class/module easy it is tolive without '
+                                btntext: 'indictae friends'
+                            CustomCard:
+                                text: 'WhatsApp'
+                                description:'Show your friends how12354578578578 easy it is tolive without '
+                                btntext: 'indictae friends'
+                            CustomCard:
+                                text: 'IMO'
+                                description:'Show your friends how12354578578578 easy it is tolive without '
+                                btntext: 'indictae friends'
+
+
+<CustomCard@MDCard>:
+    md_bg_color: get_color_from_hex('#eaeaea')
+    radius :[12,12,12,12]
+    text :''
+    description:''
+    btntext:''
+    size_hint_x: None
+    width:280
+    elevation :0.5
+    MDLabel:
+        text: root.text
+        padding_x: 20
+        font_style: 'Subtitle2'
+        font_size:13
+    MDBoxLayout:
+        orientation:'vertical'
+        MDLabel:
+            text: root.description
+            padding_x: 20
+            font_style: 'Subtitle2'
+            font_size:13
+            theme_text_color:"Custom"
+            text_color: get_color_from_hex('#525252')
+            size_hint_y: None
+            size: self.texture_size[0], self.texture_size[1]+30
+    MDBoxLayout:
+        padding :20
+        MDFillRoundFlatButton:
+            text:root.btntext
+            theme_text_color:'Custom'
+            font_style: 'Subtitle2'
+            font_size:13
+            bold: True
+            text_color :get_color_from_hex('#ffffff')
+            md_bg_color:get_color_from_hex('#7b1fa2')
+
+
+<CustomButton@MDCard>:
+    md_bg_color: get_color_from_hex('#eaeaea')
+    radius :[18,18,18,18]
+    text :''
+    size_hint_x: None
+    width:260
+    elevation :0
+    MDLabel:
+        text: root.text
+        padding_x: 20
+        font_style: 'Subtitle2'
+        font_size:13
+        markup: True
+
+
+<ShortCuts@MDCard>:
+    text: 'Label'
+    icon:'calendar'
+    size_hint:None,None
+    height:80
+    width :70
+    elevation: 0
+    md_bg_color: 1,1,1,0
+    MDBoxLayout:
+        orientation:'vertical'
+        MDIconButton:
+            icon: root.icon
+            theme_text_color:"Custom"
+            text_color: 0,0,0,1
+            pos_hint:{'center_x':0.5}
+            md_bg_color:get_color_from_hex('#eaeaea')
+        MDLabel:
+            text: root.text
+            halign:'center'
+            size_hint_y: 0.8
+            font_style: 'Subtitle2'
+            font_size:11
+
+<Separator@Widget>:
+    size_hint_y: None
+    height: 15

@@ -1,0 +1,80 @@
+#:import CircularItem libs.componts.circular_item.CircularItem
+<HomePage>:
+
+    canvas.before:
+        Color:
+            rgba: 200/255, 200/255, 200/255, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+
+
+
+    MDBoxLayout:
+        orientation: "vertical"
+
+        # App bar
+        AppBar:
+
+        # our product bar
+        ProductsDropdown:
+
+        # Button article bar
+
+        ButtonCategories:
+
+        ScrollView:
+
+            bar_width: 0
+
+            MDGridLayout:
+                id: shoe_cards
+                cols:2
+                spacing:"15dp"
+                padding:"10dp"
+                size_hint_y: None
+                height: self.minimum_height
+                width:self.minimum_width
+                # Items
+
+
+
+    MDBoxLayout:
+        orientation: "vertical"
+        adaptive_height: True
+        #spacing:10
+        padding:10
+        md_bg_color: 0, 1, 1, 1
+        MDFloatingActionButton:
+            icon: "android"
+            md_bg_color: app.theme_cls.primary_color
+
+
+        MDBoxLayout:
+            orientation: "horizontal"
+            adaptive_height: True
+
+            md_bg_color: 1, 1, 1, 1
+            MDIconButton:
+                icon: 'home'
+
+            MDIconButton:
+                icon: 'magnify'
+
+
+            MDIconButton:
+                icon: 'movie'
+
+            MDIconButton:
+                icon: 'heart-outline'
+
+
+
+
+
+
+
+
+
+

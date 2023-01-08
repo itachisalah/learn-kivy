@@ -1,0 +1,29 @@
+
+
+RootWidget:
+
+    container: container
+    BoxLayout:
+        orientation:'vertical'
+        padding:0
+        spacing:6
+
+        BoxLayout:
+            orientation:'horizontal'
+            padding:0
+            spacing:6
+
+            BoxLayout:
+                size_hint: 0.4,0.12
+                orientation:'vertical'
+                padding:0
+                spacing:6
+
+                Button:
+                    text:'Start'
+                    on_release: app.next_screen('1')
+
+
+            BoxLayout:
+                id :container
+

@@ -1,0 +1,35 @@
+{
+  "friend_1": {
+    "avatar": "https://images.unsplash.com/photo-1536329583941-14287ec6fc4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  "friend_2": {
+    "avatar": "https://images.unsplash.com/photo-1659386690005-28d213bcb550?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  "friend_3": {
+    "avatar": "https://images.unsplash.com/photo-1659431320852-b5b947d7ca7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  "friend_4": {
+    "avatar": "https://images.unsplash.com/photo-1659386690005-28d213bcb550?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  "friend_5": {
+    "avatar": "https://images.unsplash.com/photo-1659429472200-212f5c8876f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  "friend_6": {
+    "avatar": "https://images.unsplash.com/photo-1659429472548-ecf5ab036935?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  "friend_7": {
+    "avatar": "https://images.unsplash.com/photo-1659380139060-20db09cfd474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  "friend_8": {
+    "avatar": "https://images.unsplash.com/photo-1659434527848-e8909ce62e61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  "friend_9": {
+    "avatar": "https://images.unsplash.com/photo-1659434619586-b27c5c8ad8df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  "friend_10": {
+    "avatar": "https://images.unsplash.com/photo-1659431417096-0fe8534688c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  "friend_11": {
+    "avatar": "https://images.unsplash.com/photo-1659429472571-102ea91cd560?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  }
+}

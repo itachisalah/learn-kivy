@@ -1,0 +1,92 @@
+
+{
+  "nike.air.zoom.infinity": {
+    "id": "1",
+    "name": "Nike air zoom infinity",
+    "avatar_card": "assets/images/air-zoom-infinity-tour-next-golf-shoes-40Bmh8-removebg-preview.png",
+    "avatar": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/1cae6fd6-a66e-46d2-b2b4-95701befa2d1/air-zoom-infinity-tour-next-golf-shoes-40Bmh8.png",
+    "second_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/69808981-5eea-41ef-8911-8b3c4d324ac4/air-zoom-infinity-tour-next-golf-shoes-40Bmh8.png",
+    "third_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/21665253-8ef5-4cc5-a262-425ffaa95569/air-zoom-infinity-tour-next-golf-shoes-40Bmh8.png",
+    "forth_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d15491ea-4b83-493f-8b33-17fe777f9cb3/air-zoom-infinity-tour-next-golf-shoes-40Bmh8.png",
+    "price":"199.99",
+    "description": "Comfortable shoe that we know you're going to love",
+    "rating": "4.5",
+    "discount": "40%"
+  },
+  "lebron19": {
+    "id": "2",
+    "name": "Nike Lebron 19",
+    "avatar_card": "assets/images/lebron-19-basketball-shoes-4vzDNT-removebg-preview.png",
+    "avatar": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/465ab10b-d24f-4d78-98eb-f94db71fbdbd/lebron-19-basketball-shoes-4vzDNT.png",
+    "second_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/dc77afc3-ec74-45cb-8757-9c68276d5773/lebron-19-basketball-shoes-4vzDNT.png",
+    "third_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/c13adec0-4806-4540-b499-66952d851ad7/lebron-19-basketball-shoes-4vzDNT.png",
+    "forth_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5282e019-cbfa-450a-9803-ad288ec50f90/lebron-19-basketball-shoes-4vzDNT.png",
+    "price":"189.99",
+    "description": "Strong players like LeBron who stretch the court",
+    "rating": "4.7",
+    "discount": "35%"
+  },
+  "nike.air.zoom.super.rep3": {
+    "id": "3",
+    "name": "Nike air zoom SuperRep3",
+    "avatar_card": "assets/images/air-zoom-superrep-3-hiit-class-shoes-8htcBb-removebg-preview.png",
+    "avatar": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/243e7532-d741-4dce-9ab5-b08c492939ad/air-zoom-superrep-3-hiit-class-shoes-8htcBb.png",
+    "second_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/79c057ab-4aa7-4d4e-9dcb-7a61d008c064/air-zoom-superrep-3-hiit-class-shoes-8htcBb.png",
+    "third_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/67c96462-00e0-4f18-8adb-7886fdc2908f/air-zoom-superrep-3-hiit-class-shoes-8htcBb.png",
+    "forth_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b482abf8-3057-469e-be3d-dffe4f19c528/air-zoom-superrep-3-hiit-class-shoes-8htcBb.png",
+    "price":"129.99",
+    "description": "Keeps you ready for every lunge, step and jump",
+    "rating": "3.9",
+    "discount": "15%"
+  },
+  "nike.air.jordan13low": {
+    "id": "4",
+    "name": "Nike air Jordan13 Flow",
+    "avatar_card": "assets/images/air-jordan-13-low-singles-day-dm0803-300-release-date-removebg-preview.png",
+    "avatar": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/7b5a0641-6577-4040-82bf-5f2822b81424/air-jordan-13-low-singles-day-dm0803-300-release-date.jpg",
+    "second_image": "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/4bd5e326-9f7c-40da-b669-441bf4b171ab/air-jordan-13-low-singles-day-dm0803-300-release-date.jpg",
+    "third_image": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/a99bee8b-eb36-407e-81af-2941a102bb45/air-jordan-13-low-singles-day-dm0803-300-release-date.jpg",
+    "forth_image": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/eb23e87d-841e-4497-b585-e3c6607aa333/air-jordan-13-low-singles-day-dm0803-300-release-date.jpg",
+    "price":"199.99",
+    "description": "Glow in the dark as well as a digitised woven label on the bottom of the tongue",
+    "rating": "1.2",
+    "discount": "30%"
+  },
+  "nike.air.trainer.coriander": {
+    "id": "5",
+    "name": "Nike air Coriander",
+    "avatar_card": "assets/images/air-trainer-1-coriander-dh7338-300-release-date-removebg-preview.png",
+    "avatar": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/ff439eef-093b-44ec-aeaa-af4882343091/air-trainer-1-coriander-dh7338-300-release-date.jpg",
+    "second_image": "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/1368ada1-2fd5-4bcf-a0f2-ae0bf6371caa/air-trainer-1-coriander-dh7338-300-release-date.jpg",
+    "third_image": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/feccfb10-f9f4-4abc-b20b-3190a731e091/air-trainer-1-coriander-dh7338-300-release-date.jpg",
+    "forth_image": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/dba25fea-837f-4ef7-97d7-394521951002/air-trainer-1-coriander-dh7338-300-release-date.jpg",
+    "price":"149.99",
+    "description": "Keeps your ride comfortable and secure for today's adventures",
+    "rating": "4.9"
+  },
+  "nike.women.air.max.la.ville.lumiere": {
+    "id": "6",
+    "name": "Nike air max Lumiere",
+    "avatar_card": "assets/images/women-s-air-max-1-la-ville-lumiere-dq9326-100-release-date-removebg-preview.png",
+    "avatar": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/56e53a59-d0a1-4a5e-8113-f0c96fbacdda/women-s-air-max-1-la-ville-lumi%C3%A8re-dq9326-100-release-date.jpg",
+    "second_image": "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/2c0194ae-f0ef-4132-ab97-d833f9de3eaf/women-s-air-max-1-la-ville-lumi%C3%A8re-dq9326-100-release-date.jpg",
+    "third_image": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/51007b6d-b431-4d9d-8af7-76167722e21b/women-s-air-max-1-la-ville-lumi%C3%A8re-dq9326-100-release-date.jpg",
+    "forth_image": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/5e883d76-de02-478b-8dfb-d4ba54191bb1/women-s-air-max-1-la-ville-lumi%C3%A8re-dq9326-100-release-date.jpg",
+    "price":"169.99",
+    "description": "Charms complete this capital style that is worthy of beaming on throughout the arrondissements",
+    "rating": "2.5"
+  },
+  "nike.free.metcon4": {
+    "id": "7",
+    "name": "Nike free Metcon4",
+    "avatar_card": "assets/images/free-metcon-4-training-shoes-CPzZ8T-removebg-preview.png",
+    "avatar": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b5fab862-7819-4a8c-a4ae-8cec5ce8de98/free-metcon-4-training-shoes-CPzZ8T.png",
+    "second_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d38f8d44-48c6-434b-afee-0715e36c4fc8/free-metcon-4-training-shoes-CPzZ8T.png",
+    "third_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/768ffab9-36fb-4022-8f24-605a50be2ee0/free-metcon-4-training-shoes-CPzZ8T.png",
+    "forth_image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/797515e9-8543-419f-a51f-4762d98c90a7/free-metcon-4-training-shoes-CPzZ8T.png",
+    "price":"119.99",
+    "description": "Mesh cools and flexes as you speed through agility drills, while support at the midfoot and heel braces you for your heaviest sets in the weight room",
+    "rating": "3.8",
+    "discount": "70%"
+  }
+}

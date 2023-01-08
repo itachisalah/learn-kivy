@@ -1,0 +1,27 @@
+{
+  "Salaheddine":{
+    "image": "https://images.unsplash.com/photo-1659384912057-b50718beb225?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "avatar": "https://images.unsplash.com/photo-1659379686699-e6d1e1c9b6f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+},
+
+  "othman":{
+    "image": "https://images.unsplash.com/photo-1659447055750-4a85ffdf119e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "avatar": "https://images.unsplash.com/photo-1659456170005-fd1282fbad05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+},
+
+  "mohamed":{
+    "image": "https://images.unsplash.com/photo-1659438627667-af5b1d9f6a4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "avatar": "https://images.unsplash.com/photo-1659386689728-43212a226de0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzM3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+},
+
+  "khadija":{
+    "image": "https://images.unsplash.com/photo-1659456145065-c446b8bfc606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "avatar": "https://images.unsplash.com/photo-1659243898392-acf343f7ddca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0N3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+},
+
+  "sara":{
+    "image": "https://images.unsplash.com/photo-1659452098216-ba4a05356f45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+    "avatar": "https://images.unsplash.com/photo-1659431474168-d5a04c4ba36e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+}
+
+}

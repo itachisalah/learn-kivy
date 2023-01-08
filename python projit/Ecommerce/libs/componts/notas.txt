@@ -1,0 +1,8 @@
+orderLabel:
+            text:"60%"
+            font_size:16
+            text_size:self.size
+            halign:'left'
+            valign:'middle'
+            background_normal: ''
+            background_color: 1, .3, .4, .85

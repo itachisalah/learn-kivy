@@ -1,0 +1,32 @@
+{
+  "bmw": {
+    "avatar": "https://images.unsplash.com/photo-1659132204004-fd9d6f3ed8de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  "sami": {
+    "avatar": "https://images.unsplash.com/photo-1659085402847-d58e44029505?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  "walid": {
+    "avatar": "https://images.unsplash.com/photo-1659016200177-1662aa0d7bf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+  },
+  "one piece": {
+    "avatar": "https://images.unsplash.com/photo-1659075859374-3486c34b7c1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  "mamai": {
+    "avatar": "https://images.unsplash.com/photo-1659034567506-2a7220489960?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  "beans": {
+    "avatar": "https://images.unsplash.com/photo-1659027690139-3c42cb71dd53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  "animl": {
+    "avatar": "https://images.unsplash.com/photo-1659015673651-b2e6fe7de9f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  "nahol": {
+    "avatar": "https://images.unsplash.com/photo-1659109415631-6a6dd78b68f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  "bmw": {
+    "avatar": "https://images.unsplash.com/photo-1659132204004-fd9d6f3ed8de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  "itachi": {
+    "avatar": "https://images.unsplash.com/photo-1659163362440-6c211f05b05b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+  }
+}

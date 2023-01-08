@@ -1,0 +1,54 @@
+#:import platform kivy.platform
+
+<MyLabel@MDLabel>:
+    size_hint : None, None
+    width : 450
+    halign : 'center'
+    theme_text_color : 'Hint'
+    font_style:app.font_size
+    bold : True
+    markup : True
+
+
+<MainScreenView>
+    on_leave:
+        result_label.text= ''
+        input.text=''
+
+    MDTopAppBar:
+        title:"Currency Converter" if platform != 'android' else 'Converter'
+        anchor_title :"left"
+        right_action_items:
+            [
+            ["power", lambda x: app.stop(), "Exit"],
+            ["swap-horizontal", lambda x:root.switch_currencies(), "Switch currencies"],
+            ["cash-100", lambda x:app.manager_screen.switch_screen('first'), "money"],
+            ["format-list-text", lambda x:app.manager_screen.switch_screen('second'),"Currencies"],
+            ]
+
+    MyLabel:
+        id: currency_label
+        text : 'EUR to [color=#e87b27]MAD[/color]'
+        pos_hint :{'center_x':0.5,'top':0.8}
+
+    MyLabel:
+        id : result_label
+        text:''
+        pos_hint :{'center_x':0.5,'top':0.65}
+
+    MDTextField:
+        id: input
+        hint_text :"Enter Value"
+        pos_hint:{'center_x':0.5,'top':0.5}
+        size_hint :None,None
+        width : 200
+        font_size: 32
+
+    MDRectangleFlatIconButton:
+        icon :'currency-eur'
+        pos_hint:{'center_x':0.5,'top':0.3}
+        text :"Convert"
+        size_hint :None,None
+        font_size: app.button_size
+        on_press: root.convert()
+

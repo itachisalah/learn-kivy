@@ -1,0 +1,474 @@
+#: import images_path kivymd.images_path
+#: import get_color_from_hex kivy.utils.get_color_from_hex
+#: import AKBadgeLayout akivymd.uix.badgelayout.AKBadgeLayout
+<CustomTextInput@TextInput>:
+    bg_normal:f"{images_path}transparent.png"
+    bg_active:self.bg_normal
+    foreground_color : 0,0,0,0.5
+    hint_text_color:app.theme_cls.disabled_hint_text_color
+    padding: "8dp", "12dp", "8dp" ,0
+    cursor_color : 0,0,0,0.2
+    size_hint_y:None
+    height :"38dp"
+    canvas.after:
+        Color:
+            rgba: 0,0,0.005, 0.07
+        RoundedRectangle:
+            pos:self.pos
+            size:self.size
+            radius:[8, ]
+
+<RoundIcon>:
+    source:"image/itachi.jpg"
+    mipmap:True
+    size_hint:None ,None
+    size:"60dp","60dp"
+    radius:[25, ]
+    on_release:print("profile")
+
+<MyAKBadgeLayout@AKBadgeLayout>:
+    pos_hint:{"center_x":0.5 , "center_y":0.5}
+    badgeitem_padding: dp(5)
+    bold: True
+<UI>:
+    Screen:
+        name:"home"
+        MDBottomNavigation:
+            text_color_normal:0,0,0,0.5
+            text_color_active:0,0,0,1
+            MDBottomNavigationItem:
+                name: "chats"
+                icon:"chat"
+                text: "chats"
+                md_bg_color :0,0,0,1
+                MDBoxLayout:
+                    pos_hint: {"top":1}
+                    size_hint_y: None
+                    height: "60dp"
+                    spacing: "10dp"
+                    padding: "12dp", 0, "12dp", 0
+
+                    RoundIcon:
+                        on_release:root.current = "menu"
+                        size: "40dp","40dp"
+                    MDLabel:
+                        text: "Messenger"
+                        font_style: "H5"
+                        bold: True
+                        pos_hint: {"center_y":.5}
+
+
+                    MDIconButton:
+                        icon: "launch"
+                        pos_hint: {"center_y":.5}
+                MDBoxLayout:
+                    size_hint_y: .05
+                    padding: "10dp"
+                    pos_hint: {"center_y":.84}
+
+                    CustomTextInput:
+                        hint_text: "Search"
+                MDBoxLayout:
+                    size_hint_y: .15
+                    pos_hint: {"center_y": .75}
+                    padding: "10dp"
+                    ScrollView:
+                        do_scroll_y: False
+                        do_scroll_x: True
+                        size: self.size
+                        bar_color: 1,1,1,1
+                        bar_inactive_color: 1,1,1,1
+
+                        GridLayout:
+                            size_hint_x: None
+                            height: self.minimum_height
+                            width: self.minimum_width
+                            rows: 1
+                            spacing: "15dp"
+
+                            MDIconButton:
+                                icon: "plus"
+                                md_bg_color: get_color_from_hex("#f0f0f0")
+
+                            RoundIcon:
+                                source:"image/1.jpg"
+                            RoundIcon:
+                                source:"image/2.jpg"
+                            RoundIcon:
+                                source:"image/3.jpg"
+                            RoundIcon:
+                                source:"image/4.jpg"
+                            RoundIcon:
+                                source:"image/5.jpg"
+                            RoundIcon:
+                                source:"image/6.jpg"
+                            RoundIcon:
+                                source:"image/7.jpg"
+                            RoundIcon:
+                                source:"image/8.jpg"
+
+                MDBoxLayout:
+                    size_hint_y:0.8
+                    pos_hint:{"center_y":0.3}
+
+                    ScrollView:
+                        MDList:
+                            TwoLineAvatarIconListItem:
+                                text:"salaheddine"
+                                secondary_text:"some random messages"
+                                spacing:"5dp"
+                                bg_color: 1,1,1,1
+
+                                IconLeftWidget:
+                                    RoundIcon:
+                                        source:"image/1.jpg"
+                                        size:"50dp", "50dp"
+
+                            TwoLineAvatarIconListItem:
+                                text:"othman"
+                                secondary_text:"some random messages"
+                                spacing:"5dp"
+                                bg_color: 1,1,1,1
+
+
+                                IconLeftWidget:
+                                    RoundIcon:
+                                        source:"image/3.jpg"
+                                        size:"50dp", "50dp"
+
+                            TwoLineAvatarIconListItem:
+                                text:"khalid"
+                                secondary_text:"some random messages"
+                                spacing:"5dp"
+                                bg_color: 1,1,1,1
+
+
+                                IconLeftWidget:
+                                    RoundIcon:
+                                        source:"image/2.jpg"
+                                        size:"50dp", "50dp"
+
+                            TwoLineAvatarIconListItem:
+                                text:"mohamed"
+                                secondary_text:"some random messages"
+                                spacing:"5dp"
+                                bg_color: 1,1,1,1
+
+
+                                IconLeftWidget:
+                                    RoundIcon:
+                                        source:"image/4.jpg"
+                                        size:"50dp", "50dp"
+
+                            TwoLineAvatarIconListItem:
+                                text:"fatima"
+                                secondary_text:"some random messages"
+                                spacing:"5dp"
+                                bg_color: 1,1,1,1
+
+
+                                IconLeftWidget:
+                                    RoundIcon:
+                                        source:"image/5.jpg"
+                                        size:"50dp", "50dp"
+
+                            TwoLineAvatarIconListItem:
+                                text:"itachi"
+                                secondary_text:"some random messages"
+                                spacing:"5dp"
+                                bg_color: 1,1,1,1
+
+
+                                IconLeftWidget:
+                                    RoundIcon:
+                                        source:"image/6.jpg"
+                                        size:"50dp", "50dp"
+
+
+            MDBottomNavigationItem:
+                name:"peoples"
+                icon:"account-multiple"
+                text:"People"
+                on_tab_press:root.ids.actv.text_color=0,0,0,1; root.ids.stry.text_color=0,0,0,0.5
+
+                MDBoxLayout:
+                    pos_hint: {"top":1}
+                    size_hint_y: None
+                    height: "60dp"
+                    spacing: "10dp"
+                    padding: "12dp", 0, "12dp", 0
+
+                    FitImage:
+                        source: "image/itachi.jpg"
+                        mipmap: True
+                        size_hint: None, None
+                        size: "40dp", "40dp"
+                        pos_hint: {"center_y":.5}
+                        radius: [30,]
+                    MDLabel:
+                        text: "Messenger"
+                        font_style: "H5"
+                        bold: True
+                        pos_hint: {"center_y":.5}
+
+
+                    MDIconButton:
+                        icon: "contacts"
+                        pos_hint: {"center_y":.5}
+
+
+                MDFloatLayout:
+                    pos_hint:{"center_y":0.82}
+                    size_hint_y:0.08
+
+                    MDFillRoundFlatButton:
+                        id:actv
+                        text:f"ACTIVE({6})"
+                        pos_hint:{"center_x":0.25,"center_y":0.85}
+                        md_bg_color: get_color_from_hex("#f0f0f0")
+                        line_color: get_color_from_hex("#f0f0f0")
+                        theme_text_color:"Custom"
+                        text_color:0,0,0,1
+                        on_release:root.actv()
+
+                    MDFillRoundFlatButton:
+                        id:stry
+                        text:f"STORIES({10})"
+                        pos_hint:{"center_x":0.75,"center_y":0.85}
+                        md_bg_color: get_color_from_hex("#f0f0f0")
+                        line_color: get_color_from_hex("#f0f0f0")
+                        theme_text_color:"Custom"
+                        text_color:0,0,0,1
+                        on_release:root.stry()
+
+                Carousel:
+                    id : crsl
+                    direction: "right"
+                    size_hint_y:0.85
+                    pos_hint:{"center_Y":0.38}
+                    ignore_perpendicular_swipes:True
+
+
+
+                    MDBoxLayout:
+
+                        ScrollView:
+                            MDList:
+                                id:msgs
+                                OneLineAvatarIconListItem:
+                                    text:"salaheddine"
+                                    spacing:"5dp"
+                                    bg_color: 1,1,1,1
+
+                                    IconLeftWidget:
+                                        MyAKBadgeLayout:
+                                            text:''
+                                            position:"right"
+                                            badgeitem_color: 0,1,0.1,1
+
+                                            RoundIcon:
+                                                source:"image/1.jpg"
+                                                size:"50dp", "50dp"
+
+                                OneLineAvatarIconListItem:
+                                    text:"othman"
+                                    spacing:"5dp"
+                                    bg_color: 1,1,1,1
+                                    IconLeftWidget:
+                                        MyAKBadgeLayout:
+                                            text:'5m'
+                                            position:"right"
+                                            badgeitem_color: 135/255,211/255,124/255,1
+                                            RoundIcon:
+                                                source:"image/3.jpg"
+                                                size:"50dp", "50dp"
+
+                                OneLineAvatarIconListItem:
+                                    text:"khalid"
+                                    spacing:"5dp"
+                                    bg_color: 1,1,1,1
+
+
+                                    IconLeftWidget:
+                                        MyAKBadgeLayout:
+                                            text:''
+                                            position:"right"
+                                            badgeitem_color: 0,1,0.1,1
+                                            RoundIcon:
+                                                source:"image/2.jpg"
+                                                size:"50dp", "50dp"
+
+                                OneLineAvatarIconListItem:
+                                    text:"mohamed"
+                                    spacing:"5dp"
+                                    bg_color: 1,1,1,1
+
+
+                                    IconLeftWidget:
+                                        MyAKBadgeLayout:
+                                            text:'12m'
+                                            position:"right"
+                                            badgeitem_color: 135/255,211/255,124/255,1
+
+                                            RoundIcon:
+                                                source:"image/4.jpg"
+                                                size:"50dp", "50dp"
+
+                                OneLineAvatarIconListItem:
+                                    text:"fatima"
+                                    spacing:"5dp"
+                                    bg_color: 1,1,1,1
+
+
+                                    IconLeftWidget:
+                                        MyAKBadgeLayout:
+                                            text:''
+                                            position:"right"
+                                            badgeitem_color: 0,1,0.1,1
+                                            RoundIcon:
+                                                source:"image/5.jpg"
+                                                size:"50dp", "50dp"
+
+                                OneLineAvatarIconListItem:
+                                    text:"itachi"
+                                    spacing:"5dp"
+                                    bg_color: 1,1,1,1
+
+
+                                    IconLeftWidget:
+                                        MyAKBadgeLayout:
+                                            text:''
+                                            position:"right"
+                                            badgeitem_color: 0,1,0.1,1
+                                            RoundIcon:
+                                                source:"image/6.jpg"
+                                                size:"50dp", "50dp"
+
+                    MDBoxLayout:
+                        siz_hint_y:0.9
+                        pos_hint:{"center_x":0.5,"center_y":0.5}
+                        ScrollView:
+                            size:self.size
+                            pos_hint:{"center_x":0.5,"center_y":0.63}
+
+                            GridLayout:
+                                size_hint_y:None
+                                height:self.minimum_height
+                                width:self.minimum_width
+                                cols:2
+                                spacing:"20dp"
+                                padding:"20dp"
+
+                                MDCard:
+                                    orientation:'vertical'
+                                    padding:"8dp"
+                                    size_hint: 1 ,None
+                                    height: "210dp"
+                                    pos_height:{"center_x":0.5,"center_y":0.5}
+                                    elevation: 5
+                                    border_radius: 20
+                                    radius :[15]
+                                    background:"image/itachi.jpg"
+                                    FloatLayout:
+                                        MDIconButton:
+                                            icon:"plus"
+                                            md_bg_color:1,1,1,1
+                                            pos_hint:{"center_x":0.15,"center_y":0.9}
+                                        MDLabel:
+                                            text:"Add to Story"
+                                            theme_text_color:"Custom"
+                                            text_color:1,1,1,1
+                                            pos_hint:{"center_x":0.7, "center_y":0.08}
+
+                                MDCard:
+                                    orientation:'vertical'
+                                    padding:"8dp"
+                                    size_hint: 1 ,None
+                                    height: "210dp"
+                                    pos_height:{"center_x":0.5,"center_y":0.5}
+                                    elevation: 5
+                                    border_radius: 20
+                                    radius :[15]
+
+                                MDCard:
+                                    orientation:'vertical'
+                                    padding:"8dp"
+                                    size_hint: 1 ,None
+                                    height: "210dp"
+                                    pos_height:{"center_x":0.5,"center_y":0.5}
+                                    elevation: 5
+                                    border_radius: 20
+                                    radius :[15]
+
+                                MDCard:
+                                    orientation:'vertical'
+                                    padding:"8dp"
+                                    size_hint: 1 ,None
+                                    height: "210dp"
+                                    pos_height:{"center_x":0.5,"center_y":0.5}
+                                    elevation: 5
+                                    border_radius: 20
+                                    radius :[15]
+
+    Screen:
+        name:'menu'
+        FloatLayout:
+            MDTextButton:
+                text:"Don"
+                size_hint:None ,None
+                bold:True
+                pos_hint:{"center_x":0.9,"center_y":0.95}
+
+        FloatLayout:
+            size_hint_y:0.3
+            size_hint_x:None
+            pos_hint:{"center_x":0.5,"center_y":0.9}
+
+            canvas.before:
+                Ellipse:
+                    size:120,120
+                    source:"image/itachi.jpg"
+                    pos:self.pos
+
+        FloatLayout:
+            size_hint_y:0.1
+            pos_hint:{'center_y':0.68}
+
+            MDLabel:
+                text:"itachi Python"
+                font_style:"H5"
+                bold:True
+                halign:'center'
+                pos_hint:{'center_y':0.68}
+
+        FloatLayout:
+            size_hint_y:0.6
+            pos_hint:{'center_y':0.7}
+
+            ScrollView:
+                MDList:
+                    OneLineAvatarIconListItem:
+                        text:"Dark Mode"
+                        divider: None
+
+                        IconLeftWidget:
+                            icon:"image/moon.png"
+                        IconRightWidget:
+                            MDSwitch:
+                                active:False
+                    OneLineAvatarIconListItem:
+                        text:"Switch account"
+                        divider: None
+
+                        IconLeftWidget:
+                            icon:"image/pngegg.png"
+                        IconRightWidget:
+                            MDSwitch:
+                                active:False
+
+
+
+
+
+
+

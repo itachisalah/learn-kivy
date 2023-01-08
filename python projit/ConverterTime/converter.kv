@@ -1,0 +1,66 @@
+<MyLabel@MDLabel>:
+    font_size: 25
+    halign : 'left'
+    valign :'middle'
+    text_size: self.size
+
+<Container>:
+    rows: 3
+    text_input : text_input
+    label_hours : label_hours
+    label_minutes: label_minutes
+    label_seconds: label_seconds
+
+    AnchorLayout:
+        anchor_y : 'top'
+        size_hint: 1, 0.15
+        padding: 30
+
+        MDTextField:
+            text: ''
+            id : text_input
+            font_size: 45
+            input_type: 'number'
+            multiline: False
+            hint_text:'Enter number of days'
+
+    GridLayout:
+        cols: 2
+        padding:[40,0,0,50]
+
+        BoxLayout:
+            orientation: 'vertical'
+
+            MyLabel:
+                text: 'Hours'
+            MyLabel:
+                text: 'Minutes'
+            MyLabel:
+                text: 'Seconds'
+
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint: 0.5, 1
+
+            MyLabel:
+                text: '0'
+                id: label_hours
+            MyLabel:
+                text: '0'
+                id: label_minutes
+            MyLabel:
+                text: '0'
+                id: label_seconds
+
+    BoxLayout:
+        size_hint: 0.9,0.15
+        padding:[30,10,30,20]
+        MDRaisedButton:
+            text:'Calculater'
+            font_size: 20
+            size_hint: 1,0.9
+            on_release:root.convert()
+
+
+
+
